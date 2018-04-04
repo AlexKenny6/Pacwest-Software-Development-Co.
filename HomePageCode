@@ -1,202 +1,441 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Pacwest Software</title>
+  <!-- Meta Tags below -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pacwest Software Development LLC">
+  <meta name="author" content="Pacwest Software Development LLC">
 
-<header>
+  <meta name="keywords" content="Software development, software, development, seattle,
+  bellevue, pacwest, pacwest software" >
+  <!-- End of Meta Tags -->
 
-<!-- Google analytics tracking stuff -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111264251-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <!-- Google analytics tracking stuff -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111264251-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-111264251-1');
-    gtag('set', {'WebsiteViewData': '166440886'}); // Set the user ID using signed-in user_id.
-    ga('set', 'AppViewData', '166443016'); // Set the user ID using signed-in user_id.
-  </script>
-<!-- End of Google analytics tracking -->
+      gtag('config', 'UA-111264251-1');
+      gtag('set', {'WebsiteViewData': '166440886'}); // Set the user ID using signed-in user_id.
+      ga('set', 'AppViewData', '166443016'); // Set the user ID using signed-in user_id.
+    </script>
+  <!-- End of Google analytics tracking -->
 
-<div class="title">
-  <title>Home Page</title>
-</div>
+<!-- Linking styles to html -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <!-- End of Linking styles to html -->
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Seatown Software Development Co.">
-<meta name="author" content="Seatown Software Development Co.">
+</head>
 
-<style>
-  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">>
 
-<!-- Keywords -->
-<meta name="keywords" content="Software development, software, development, seattle,
-bellevue, seatown, seatown software, seatown software" >
-
-<!-- Beginning of linking CSS to this page
-
-<div>
-  <link rel="stylesheet" href="SS-CSSforHomePage.css">
-</div>
-
-End of Linking CSS to this page -->
-
-  <div class="logoInHeader">
-
-      <img align="left" src="http://www.supercoloring.com/sites/default/files/silhouettes/2015/05/seattle-space-needle-deep-sky-blue-silhouette.svg"
-      alt="logo picture"/>
-  </div>
-
-  <div class="theNavBar">
-    <nav align="right">
-        <ul>
-          <li><a href="http://www.seatownsoftware.com/SS-StartAProjPage.html">Start a Project!</a></li>
-          <li><a href="http://www.seatownsoftware.com/SS-PortfolioPage.html">Portfolio</a></li>
-          <li><a href="http://www.seatownsoftware.com/SS-AboutPage.html">About</a></li>
-        </ul>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logoInHeader">
+            <img class="navbar-brand" src="http://freevector.co/wp-content/uploads/2012/06/808-space-needle1.png" alt="logo picture">
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  </div>
-</header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="companyDetails">
-  <h1 align="center">Seatown Software Development Co.</h1>
-  <br>
-  <br>
-  <center>
-    <h2>Hello, at Seatown Software Development, we love to create and design websites that are responsive and fit your needs.
-    We are also expanding into the iOS development market!</h2>
-    <br>
-    <h2>We are proud to be based out of Bellevue, Washington</h2>
-  </center>
+
+    <style>
+
+    h1,h2,h3,h4,li,p,a {
+      font-family: 'Muli', sans-serif;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+        background-color: #1db954;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+    }
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #1db954 !important;
+        background-color: #fff !important;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+    }
+
+    </style>
+
+<!-- below is for scrolling -->
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+       // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>
+
+<!-- below is for header -->
+<div class="jumbotron text-center">
+  <h1>Pacwest Software Development LLC</h1>
+  <p>Hello, at Pacwest Software Development, we love to create and design websites.</p>
 </div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+        <h2>We are a small web developing and iOS developing company founded in 2017 from Bellevue, Washington.</h2>
+          <!-- About Company Page -->
 
-<body>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer>
+        <button class="btn btn-default btn-lg"><a href="#contact">Get in Touch</a></button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<!-- About us page -->
+<div id="about" class="container-fluid">
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2>
+      <hr>
+      <h4><strong>MISSION:</strong> We strive to develop code that works flawlessly.</h4>
+      <p><strong>VISION:</strong> We believe that we are here to create beautiful websites that you will be proud of.
+      We are constantly adapting to new innovations in the software industry.
+      We believe in the software we develop.
+      We believe in focusing on each project with our full attention to provide the care that it deserves.
+      We will not settle for less than excellence, and we have the courage to admit when we are wrong and to learn from our mistakes.
+      We believe in the company and the reputation we have built.
+    </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end of about us page -->
+
+
+<!-- Service page -->
+<div id="services" class="container-fluid">
+<div class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <hr>
+  <h4>What we offer</h4>
   <br>
-  <center>
-    <small>
-      <p>&copy; 2017, Seatown Software Development Co., All Rights Reserved</p>
-  </small>
-  </center>
+  <div class="row">
+      <div class="col-sm-13">
+          <span class="glyphicon glyphicon-off"></span>
+          <h4>POWER</h4>
+          <p>Front End Web Development</p>
+          <p>Back End Web Development with PHP</p>
+          <p>iOS UX and UI Development</p>
+      </div>
+  </div>
+  <br><br>
+  <div class="row">
+      <div class="col-sm-6">
+          <span class="glyphicon glyphicon-certificate"></span>
+          <h4>CERTIFIED</h4>
+          <p>iOS Developer's License</p>
+          <p>Gaining our Business License in WA State</p>
+      </div>
+      <div class="col-sm-6">
+          <span class="glyphicon glyphicon-wrench"></span>
+          <h4>HARD WORK</h4>
+          <p>Day in and day out, we will work on your project</p>
+      </div>
+  </div>
+</div>
+</div>
+<!-- end of services page -->
+
+
+
+<!-- porfolio page -->
+<div id="portfolio" class="container-fluid">
+<div class="container-fluid text-center bg-grey">
+    <h2>Portfolio</h2>
+    <hr>
+    <h4>What we have created</h4>
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <div class="thumbnail">
+                <a href="https://myohmymsblog.me"
+                data-size="medium" target="_blank">
+                  <img src="Myohmymsblogphoto.jpg" alt="My Oh My Ms Blog Pic">
+                </a>
+                <p><strong>My Oh My Mariners Blog</strong></p>
+                <p>Created in 2017, this blog is based on the Seattle Mariners.
+                  They have pages full of stats based on starting players for the team and articles about recent team news.
+                  With this, they also update their twitter account about the team.</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="thumbnail">
+              <a href="http://alexpkenny.com"
+              data-size="medium" target="_blank">
+                <img src="AlexKennyWebsite.jpg" alt="Alex Kenny Website">
+              </a>
+                <p><strong>Alex Kenny Personal Website</strong></p>
+                <p>Created in 2016, this website is about one of our clients.
+                Their resume and recent activity is on the site as well.
+                The purpose is to give users a view on what he has accomplished.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Pricing Page-->
+<div id="pricing" class="container-fluid">
+<div class="container-fluid">
+    <div class="text-center">
+        <h2>Pricing</h2>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>Single/Multi-Page Responsive Website</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Contact us to set up a meeting to talk about the website details.</p>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-lg"><a href="#contact">Sign Up</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>iOS App</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Contact us to set up a meeting to talk about the iOS app details.</p>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-lg"><a href="#contact">Sign Up</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Contact stuff-->
+<div id="contact" class="container-fluid">
+<div class="container-fluid">
+      <h2 class="text-center">CONTACT</h2>
+      <hr>
+      <div class="row">
+          <div class="col-sm-5">
+              <p>Contact us and we'll get back to you within 24 hours.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Bellevue, WA, US</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:pacwestsoftwaredev@gmail.com">pacwestsoftwaredev@gmail.com</a></p>
+          </div>
+          <form class="forming" action="//www.enformed.io/aritd6re" method="post">
+          <div class="col-sm-7">
+            <div class="rows">
+              <form class="forming" action="//www.enformed.io/aritd6re" method="post">
+                <div class="col-sm-6 form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control"  name="name" placeholder="Type Here">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <label for="email">Email Address</label>
+                  <input class="form-control"  name="email" type="email" placeholder="Type Here">
+                </div>
+                <textarea class="form-control"  name="message" placeholder="Comment and Price Point" rows="5"></textarea>
+                <br>
+                <div class="row">
+                  <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" id="submit" name="submit" type="submit" value="Finish!">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+</div>
+
+<!-- Google Images -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(47.61, -122.1999);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIfQylP37uD84k9O7cSwi0YXl0_3C_Ebk&callback=myMap"></script>
+<!-- End of Google Maps -->
+
+<style>
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+</style>
+
+<footer class="container-fluid text-center">
+  <p>&copy; 2018, Pacwest Software Development LLC, All Rights Reserved</p>
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
 </footer>
-</body>
 
 <style>
 
-.logoInHeader img {
-  height: 125px;
-  width: 100px;
+.jumbotron {
   background-color: #1db954;
-}
-
-html{
-  background-color: #1db954;
-  background-size: cover;
-  background-position: center;
-  height: 730px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-h1{
   color: white;
+  padding: 100px 25px;
 }
 
-  h2{
-
-    color: white;
-    font-size: 3.0vh;
-  }
-
-  p{
-    color: grey;
-    height: 0px;
-  }
-
-nav ul ul {
-  display: none;
+.bg-grey {
+    background-color: #f6f6f6;
 }
 
-  nav ul li:hover > ul {
-    display: block;
-  }
-
-  nav ul {
-    background: grey;
-    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
-    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
-    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
-    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-    padding: 0 20px;
-    border-radius: 10px;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-  }
-    nav ul:after {
-      content: ""; clear: both; display: block;
-    }
-
-
-    nav ul li {
-  float: left;
-}
-  nav ul li:hover {
-    background: #4b545f;
-    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-  }
-    nav ul li:hover a {
-      color: #fff;
-    }
-
-  nav ul li a {
-    display: block; padding: 15px 60px;
-    color: rgb(50, 145, 250); text-decoration: none;
-  }
-
-  nav ul ul {
-  background: #5f6975; border-radius: 0px; padding: 0;
-  position: absolute; top: 100%;
-}
-  nav ul ul li {
-    float: none;
-    border-top: 1px solid #6b727c;
-    border-bottom: 1px solid #575f6a;
-    position: relative;
-  }
-    nav ul ul li a {
-      padding: 15px 20px;
-      color: #fff;
-    }
-      nav ul ul li a:hover {
-        background: #4b545f;
-      }
-
-      nav ul ul ul {
-  position: absolute; left: 100%; top:0;
+.container-fluid {
+  padding: 60px 50px;
 }
 
+.logo-small {
+    color: #1db954;
+    font-size: 50px;
+}
+
+.logo {
+  color: #1db954;
+  font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.panel {
+  border: 1px solid #1db954;
+   border-radius:0;
+   transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #1db954 !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #1db954 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #1db954;
+    color: #fff;
+}
 
 </style>
 
+
+
+
+</body>
 </html>

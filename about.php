@@ -22,7 +22,7 @@
                     If any of these point to you, then feel free to give us an email and let us know how we can help bring your idea alive!
                     </p>
             </header>
-            <?php include(TEMPLATE_FRONT . DS . "side_nav.php");  ?>
+            <?php include(TEMPLATE_FRONT . DS . "side_nav.php"); ?>
         </section>
         <!--Info-->
         <h2><big>Our Team</big></h2>

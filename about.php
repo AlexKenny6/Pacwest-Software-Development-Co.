@@ -42,4 +42,4 @@
                 <p><a href="mailto:contact@pacwestsoftware.com">Send me an email!</a></p>
             </div>
         </section>
-<?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php"); ?>

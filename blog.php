@@ -5,7 +5,7 @@
         <h1>Our Blog</h1>
         <p>Hello, we want to provide you with useful information about web development, iOS app development, and any other tech news!</p>
     </header>
-    <?php include(TEMPLATE_FRONT . DS . "side_nav.php");  ?>
+    <?php include(TEMPLATE_FRONT . DS . "side_nav.php"); ?>
 </section>
 <!--Article Boxes-->
 <h2><big>Recent Articles</big></h2>

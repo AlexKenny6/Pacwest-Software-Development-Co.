@@ -48,5 +48,5 @@
     <body href="#myPage" data-spy="scroll" data-offset="60"> 
         <div class="wrapper">
             <nav class="main-nav">
-               <?php include(TEMPLATE_FRONT . DS . "top_nav.php");  ?>
+               <?php include(TEMPLATE_FRONT . DS . "top_nav.php"); ?>
             </nav>

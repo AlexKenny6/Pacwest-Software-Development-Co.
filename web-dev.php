@@ -72,4 +72,4 @@
         <p>All websites will be on our dedicated server with AWS and will be monitored daily with weekly backups to keep everything safe!</p>
     </div>
 </section>
-<?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php"); ?>

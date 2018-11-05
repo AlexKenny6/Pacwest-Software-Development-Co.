@@ -49,4 +49,4 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIfQylP37uD84k9O7cSwi0YXl0_3C_Ebk&callback=myMap"></script>
     <!-- End of Google Maps -->
 </section>
-<?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php"); ?>

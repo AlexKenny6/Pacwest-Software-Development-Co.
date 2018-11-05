@@ -104,4 +104,4 @@
         <p><b>$100/hour</b></p>
     </div>  
 </section>
-<?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php"); ?>
